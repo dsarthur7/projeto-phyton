@@ -1,4 +1,4 @@
-ARQUIVO = "tarefas.txt"
+arquivo = "tarefas.txt"
 
 
 def carregar_tarefas():
@@ -15,7 +15,7 @@ def carregar_tarefas():
             tarefas.append({"titulo": titulo, "concluida": concluida})
         arquivo.close()
     except FileNotFoundError:
-        # Se o arquivo ainda não existe, começamos com a lista vazia.
+      
         pass
     return tarefas
 
@@ -30,7 +30,7 @@ def salvar_tarefas(tarefas):
 
 
 def mostrar_menu():
-    print("\n===== LISTA DE TAREFAS =====")
+    print("\n===== Minhas Tarefas =====")
     print("1 - Ver tarefas")
     print("2 - Adicionar tarefa")
     print("3 - Concluir/Desmarcar tarefa")
