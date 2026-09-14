@@ -111,7 +111,7 @@ def main():
             print("\nTarefas salvas. Até mais!")
             break
         else:
-            print("Opção inválida, tente de novo.")
+            print("Opção inválida, tente novamente.")
 
 
 if __name__ == "__main__":
